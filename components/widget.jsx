@@ -9,8 +9,16 @@ return (
       >
         <div className="d-flex align-items-center justify-content-start w-100 gap-2">
           <p className="fw-bold p-0 m-0">Swap</p>
-          <p className="fw-bold p-0 m-0">Bridge</p>
-          <p className="p-0 m-0">Near</p>
+          <p className="fw-bold p-0 m-0" style={{ color: "#F0F0F0" }}>
+            Bridge
+          </p>
+          <div className="p-0 m-0 w-100 text-end">
+            <select>
+              <option>NEAR</option>
+              <option>ETH</option>
+              <option>BNB</option>
+            </select>
+          </div>
         </div>
         <div
           className="d-flex flex-column align-items-center justify-content-center gap-2"
@@ -49,7 +57,15 @@ return (
               >
                 $120.54
               </p>
-              <div></div>
+              <div className="w-100 text-end">
+                <select>
+                  <option>NEAR</option>
+                  <option>ETH</option>
+                  <option>BNB</option>
+                  <option>USDC</option>
+                  <option>Matic</option>
+                </select>
+              </div>
             </div>
           </div>
           {/* {Second Box} */}
@@ -86,7 +102,15 @@ return (
               >
                 $120.54
               </p>
-              <div></div>
+              <div className="w-100 text-end">
+                <select>
+                  <option>NEAR</option>
+                  <option>ETH</option>
+                  <option>BNB</option>
+                  <option>USDC</option>
+                  <option>Matic</option>
+                </select>
+              </div>
             </div>
           </div>
           {/* {Swith Button} */}
